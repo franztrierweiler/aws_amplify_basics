@@ -1,0 +1,6 @@
+Services créés:
+- Amplify
+- Lambda
+- API Gateway
+- DynamoDB
+- AWS IAM (pour autoriser la création dans DynamoDB)
