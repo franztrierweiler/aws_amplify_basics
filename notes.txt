@@ -4,3 +4,9 @@ Services créés:
 - API Gateway
 - DynamoDB
 - AWS IAM (pour autoriser la création dans DynamoDB)
+
+URL de l'API:
+https://weh51y48a9.execute-api.us-east-1.amazonaws.com/dev
+
+ARN de la base de données:
+arn:aws:dynamodb:us-east-1:764035936668:table/HelloWorldDatabase
