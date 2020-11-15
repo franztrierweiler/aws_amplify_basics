@@ -25,6 +25,7 @@
         margin-left: 20px;
         }
     </style>
+    
     <script>
         // define the callAPI function that takes a first name and last name as parameters
         var callAPI = (firstName,lastName)=>{
@@ -47,7 +48,6 @@
             .then(result => alert(JSON.parse(result).body))
             .catch(error => console.log('error', error));
         }
-    </script>
     
     class Square extends React.Component {
       render() {
@@ -111,6 +111,8 @@
       <Game />,
       document.getElementById('root')
     );
+    
+    </script>
     
 </head>
 <body>
